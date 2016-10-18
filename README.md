@@ -34,7 +34,7 @@ Source code can be downloaded from:
 
 You can save it in `~/npm-no-global-install` and add this line to your `~/.profile` or `~/.bashrc`:
 ```js
-~/npm-no-global-install
+source ~/npm-no-global-install
 ```
 Now, after you log in again or open a new terminal window, the global npm installation of a module specified in the function should be prevented.
 
