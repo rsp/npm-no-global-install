@@ -42,8 +42,8 @@ Configuration
 -------------
 There are 3 variables in the function source code for configuration:
 
-* `n` - the module name
-* `u` - the documentation url
+* `n` - the name of the
+* `u` - the URL for documentation
 * `w` - the warning message
 
 Issues
@@ -55,8 +55,8 @@ Author
 ------
 [Rafał Pocztarski](https://pocztarski.com/)
 <br/>
-[![Follow on GitHub][github-follow-svg]][github-follow-url]
-[![Follow on Twitter][twitter-follow-svg]][twitter-follow-url]
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
 <br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
