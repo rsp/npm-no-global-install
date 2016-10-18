@@ -1,0 +1,24 @@
+npm() {
+  n=modname
+  w="Please don't install $n globally - see: http://example.com/ for details"
+  i=0
+  g=0
+  m=0
+  for a in "$@"; do
+    case $a in
+      i|install)
+        i=1;;
+      -g|--global)
+        g=1;;
+      modname)
+        m=1;;
+    esac
+  done
+  if (( $i == 1 && $g == 1 && $m == 1 )); then
+    echo $w >&2
+    return 1
+  else
+    `which npm` "$@"
+  fi
+}
+
