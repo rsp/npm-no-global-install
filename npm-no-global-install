@@ -1,10 +1,21 @@
-# Written for two Stack Overflow answers:
-# http://stackoverflow.com/a/40069556/613198
-# http://stackoverflow.com/a/40069979/613198
+# An example Bash function to stop global installation of a
+# certain npm module written for two Stack Overflow answers:
+# http://stackoverflow.com/a/40069556
+# http://stackoverflow.com/a/40069979
+# Copyright (c) 2016 Rafał Pocztarski
+# MIT License (Expat), for details see:
+# https://github.com/rsp/npm-no-global-install
 
 npm() {
-  n=modname
-  w="Please don't install $n globally - see: http://example.com/ for details"
+  # --- config variables ---
+  # n - the module name:
+  n=restricted-module
+  # u - the documentation url:
+  u=http://example.com/
+  # w - the warning message:
+  w="Please don't install $n globally - see: $u"
+  # ------------------------
+
   i=0
   g=0
   m=0
@@ -14,7 +25,7 @@ npm() {
         i=1;;
       -g|--global)
         g=1;;
-      modname)
+      $n)
         m=1;;
     esac
   done
