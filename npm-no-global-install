@@ -1,3 +1,7 @@
+# Written for two Stack Overflow answers:
+# http://stackoverflow.com/a/40069556/613198
+# http://stackoverflow.com/a/40069979/613198
+
 npm() {
   n=modname
   w="Please don't install $n globally - see: http://example.com/ for details"
