@@ -1,10 +1,6 @@
 npm-no-global-install
 =====================
 
-[![Dependencies Status][david-img]][david-url]
-[![Known Vulnerabilities][snyk-img]][snyk-url]
-[![License][license-img]][license-url]
-
 [github-url]: https://github.com/rsp/npm-no-global-install
 [readme-url]: https://github.com/rsp/npm-no-global-install#readme
 [issues-url]: https://github.com/rsp/npm-no-global-install/issues
