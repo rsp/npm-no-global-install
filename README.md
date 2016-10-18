@@ -53,7 +53,12 @@ For any bug reports or feature requests please
 
 Author
 ------
-### [Rafał Pocztarski](https://pocztarski.com/)<br/>[![Follow on GitHub][github-follow-img]][github-follow-url] [![Follow on Twitter][twitter-follow-img]][twitter-follow-url]<br/>[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
+[**Rafał Pocztarski**](https://pocztarski.com/)
+<br/>
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+<br/>
+[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 License
 -------
