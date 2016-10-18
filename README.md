@@ -30,7 +30,7 @@ Installation
 ------------
 Source code can be downloaded from:
 
-* https://rawgit.com/rsp/npm-no-global-install/npm-no-global-install
+* https://rawgit.com/rsp/npm-no-global-install/master/npm-no-global-install
 
 You can save it in `~/npm-no-global-install` and add this line to your `~/.profile` or `~/.bashrc`:
 ```js
