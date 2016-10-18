@@ -57,7 +57,12 @@ For any bug reports or feature requests please
 
 Author
 ------
-Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
+[Rafał Pocztarski](https://pocztarski.com/)
+<br/>
+[![Follow on GitHub][github-follow-svg]][github-follow-url]
+[![Follow on Twitter][twitter-follow-svg]][twitter-follow-url]
+<br/>
+[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 License
 -------
